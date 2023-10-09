@@ -16,7 +16,7 @@ jobs:
     env:
       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           fetch-depth: '0'
