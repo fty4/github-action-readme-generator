@@ -3538,7 +3538,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:^17.0.25, @types/yargs@npm:^17.0.8":
+"@types/yargs@npm:^17.0.31":
+  version: 17.0.31
+  resolution: "@types/yargs@npm:17.0.31"
+  dependencies:
+    "@types/yargs-parser": "*"
+  checksum: a7f4fe5b05162790cbcbccceb22821e2cb3e49d95a4d8403352f258744cd504124f3ab502eddb2262f5d2d9cc6a0547851ae44621b14fe4c505d8f1434c2a19e
+  languageName: node
+  linkType: hard
+
+"@types/yargs@npm:^17.0.8":
   version: 17.0.26
   resolution: "@types/yargs@npm:17.0.26"
   dependencies:
@@ -7371,7 +7380,7 @@ __metadata:
     "@types/node": ^20.7.0
     "@types/node-emoji": ^1.8.2
     "@types/rimraf": ^3
-    "@types/yargs": ^17.0.25
+    "@types/yargs": ^17.0.31
     "@typescript-eslint/eslint-plugin": ^6.7.3
     "@typescript-eslint/parser": ^6.7.3
     "@typescript-eslint/typescript-estree": ^6.7.3
